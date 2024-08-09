@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "generar_factura_dian.py", line 402, in <module>
+    AutomaticDianBilling( 'facturas.csv' )
+  File "generar_factura_dian.py", line 29, in __init__
+    self.data_validator()
+  File "generar_factura_dian.py", line 366, in data_validator
+    time.sleep(5)
+KeyboardInterrupt
